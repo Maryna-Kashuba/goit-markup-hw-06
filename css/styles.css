@@ -14,12 +14,7 @@ p {
     margin: 0;
 }
 
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .icon ::after {
     fill: var(--GREEN, #31D0AA);
@@ -240,7 +235,49 @@ ul {
 }
 
 /*new section*/
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.strategy {
+    flex-shrink: 0;
+    background: #FFF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+                                /*sectoin*/
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;                       /*h2*/
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
+.about-our-company {
+    display: flex;
+    flex-wrap: wrap;
+   
+                     /*ul*/
+}
+.feature-li {
+ 
+padding-top: 72px;
+padding-bottom: 72px;
+display: flex;
+    width: 288px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;         /*li*/
+}
 
 .wrapper-icon {
     display: flex;
@@ -248,48 +285,15 @@ ul {
     justify-content: center;
     height: 112px;
     background-color: #f4f4fd;
-    border-radius: 4px;
+    border-radius: 4px;            /*div wrapper icon*/
     margin-bottom: 8px;
 }
-
-/*seckond section*/
-.feature-li {
-    flex-basis: calc((100% - 3 * 24px) / 4)
-}
-
-.strategy {
-    flex-shrink: 0;
-    background: #FFF;
-    padding: 120px 0;
-
-
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.about-our-company,
-.team-navigation {
-    display: flex;
-    gap: 24px;
-}
-
 
 .strategy-list {
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500;                       /*h3*/
     line-height: 24px;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
@@ -299,7 +303,7 @@ ul {
     color: var(--SLATE, #434455);
     font-family: Roboto;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 24px;                        /*p*/
     letter-spacing: 0.32px;
 }
 
@@ -336,6 +340,11 @@ ul {
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
+.team-navigation {
+    display: flex;
+
+    gap: 24px;
 }
 
 .team-card-name {
@@ -686,7 +695,8 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 2px 1px rgba(0, 0, 0, 0.2);;
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    ;
 }
 
 .mod-window {
@@ -851,8 +861,8 @@ ul {
     background-color: #404bbf;
 }
 
-.mod-window-checkbox:checked +.user-comment-list .span-comment {
-background-color: #404bbf;
+.mod-window-checkbox:checked+.user-comment-list .span-comment {
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
@@ -866,3 +876,45 @@ background-color: #404bbf;
     font-style: normal;
     font-size: 12px;
 }
+
+@media screen and (min-width: 768) {
+
+    .container {
+            max-width: 768px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+.about-our-company{
+    gap: 24px;
+}
+    /*.feature-li {
+        flex-basis: calc((100% - 2 * 24px) / 2)
+    }*/
+}
+
+
+@media screen and (min-width: 1158) {
+    .container {
+            max-width: 1158px;
+            padding: 0 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+                .strategy {
+                    flex-shrink: 0;
+                    background: #FFF;
+                    padding: 120px 0;
+                    /*sectoin*/
+                }
+                .about-our-company {
+                    display: flex;
+                    gap: 24px;
+                }
+                }
+
+                .feature-li {
+                    flex-basis: calc((100% - 3 * 24px) / 4)
+                }
+
+    
