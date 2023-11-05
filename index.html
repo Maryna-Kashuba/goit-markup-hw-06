@@ -18,18 +18,23 @@
 
 <body>
     <!--Top line-->
- 
-     <header class="header">
+
+    <header class="header">
         <div class="container header-wrapper">
             <nav class="cont-header-wrapper">
                 <a class="header-logo" href="./index.html">
                     Web<span class="header-logo-line">Studio</span>
                 </a>
                 <ul class="header-navigation">
-                    <li class="header-nav-list"><a class="header-studio-item current" href="./index.html">Studio</a>
+                    <li class="header-nav-list">
+                        <a class="header-studio-item current" href="./index.html">Studio</a>
                     </li>
-                    <li class="header-nav-list"><a class="header-studio-item" href="">Portfolio</a></li>
-                    <li class="header-nav-list"><a class="header-studio-item" href="">Contacts</a></li>
+                    <li class="header-nav-list">
+                        <a class="header-studio-item current" href="">Portfolio</a>
+                    </li>
+                    <li class="header-nav-list">
+                        <a class="header-studio-item current" href="">Contacts</a>
+                    </li>
                 </ul>
             </nav>
             <address class="address">
@@ -48,6 +53,12 @@
                 </swg>
             </button>
             <div class="menu-mobile-navigation">
+                <button class="close-mobile-menu" id="close-menu-mobile">
+                    <svg class="icon-mobile-menu" width="24" height="24">
+                        <use href="./images/icons.svg#"></use>     <!--посилання на іконку закриття-->
+                    </svg>
+                </button>
+                <div class="wrapper-mobile-menu">
                 <ul class="menu-mobile">
                     <li class="menu-mobile-li">
                         <a class="mobile-nav" href="./index.html">Studio</a>
@@ -63,13 +74,44 @@
                     <li class="mobile-addres-li" href="mailto:info@devstudio.com">info@devstudio.com</li>
                     <li class="mobile-addres-li" href="tel:+110001111111">+11 (000) 111-11-11</li>
                 </ul>
+                </div>
+                <ul class="social-icons">
+                    <li class="social-icon-li">
+                        <a href="" target="_blank" class="social-wrppr-icon">
+                            <svg class="icon" width="16" height="16">
+                                <use href="./images/icons.svg"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-li">
+                        <a href="" target="_blank" class="social-wrppr-icon">
+                            <svg class="icon" width="16" height="16">
+                                <use href="./images/icons.svg"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-li">
+                        <a href="" target="_blank" class="social-wrppr-icon">
+                            <svg class="icon" width="16" height="16">
+                                <use href="./images/icons.svg"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-icon-li">
+                        <a href="" target="_blank" class="social-wrppr-icon">
+                            <svg class="icon" width="16" height="16">
+                                <use href="./images/icons.svg"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
-   
+
     <main>
         <!--Our motto-->
-   <!--
+        <!--
          <section class="hero-image">
             <div class="container">
                 <h1 class="hero-image-name">Effective Solutions for Your Business</h1>
@@ -127,14 +169,14 @@
             </div>
         </section>
         <!--Team of the company-->
-       <!--
+        
          <section class="title-team">
             <div class="container">
                 <h2 class="title-team-item">Our Team</h2>
                 <ul class="team-navigation">
                     <li class="team-card">
                         <img class="team-card-mark" src="./images/img.jpg" alt="photo Mark Guerrero" width="264"
-                            height="260">
+                            >
                         <div class="team-card-name">
                             <h3 class="team-card-list">Mark Guerrero</h3>
                             <p class="team-card-list-item">Product Designer</p>
@@ -172,7 +214,7 @@
                     </li>
                     <li class="team-card">
                         <img class="team-card-tom" src="./images/img.1.jpg" alt="photo Tom Ford" width="264"
-                            height="260">
+                            >
                         <div class="team-card-name">
                             <h3 class="team-card-list">Tom Ford</h3>
                             <p class="team-card-list-item">Frontend Developer</p>
@@ -210,7 +252,7 @@
                     </li>
                     <li class="team-card">
                         <img class="team-card-cam" src="./images/img.2.jpg" alt="photo Camila Garcia" width="264"
-                            height="260">
+                            >
                         <div class="team-card-name">
                             <h3 class="team-card-list">Camila Garcia</h3>
                             <p class="team-card-list-item">Marketing</p>
@@ -248,7 +290,7 @@
                     </li>
                     <li class="team-card">
                         <img class="team-card-dan" src="./images/img.3.jpg" alt="photo Daniel Wilson" width="264"
-                            height="260">
+                            >
                         <div class="team-card-name">
                             <h3 class="team-card-list">Daniel Wilson</h3>
                             <p class="team-card-list-item">UI Designer</p>
@@ -287,9 +329,7 @@
                 </ul>
             </div>
         </section>
-       -->
-        <!--Our Portfolio-->
-     <!--
+      
            <section class="portfolio-company">
             <div class="container">
                 <h2 class="portfolio-name">Our Portfolio</h2>
@@ -375,9 +415,9 @@
                 </ul>
             </div>
         </section>
-     -->
+    
     </main>
- <!--
+    <!--
        <footer class="footer">
         <div class="container wrapp-foot">
             <div class="wrapper-footer-logo">
@@ -436,7 +476,7 @@
         </div>
     </footer>
  -->
-   <!--
+    <!--
      <div class="modal">
         <div class="modal-list">
             <button class="mod-window" type="button">
