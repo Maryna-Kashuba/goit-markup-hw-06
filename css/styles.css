@@ -1087,86 +1087,222 @@ body {
                 rgba(46, 47, 66, 0.7)),
             url(../images/Dark-bgp.jpg);
     }
-}
 
-@media (min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .hero-image {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bgp2.jpg);
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-image {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bgp2.jpg);
+        }
+    }
+
+    .hero-image-name {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        margin-bottom: 36px;
+        width: 496px;
+    }
+
+    .about-our-company {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .feature-li {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .strategy-list {
+        text-align: left;
+        letter-spacing: 0.02em;
+    }
+
+    .team-navigation {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+
+    .portfolio-class {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .portfolio-class-list {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .wrapp-foot {
+        justify-content: flex-start;
+        align-items: baseline;
+        padding-left: 108px;
+    }
+
+    .footer-logo {
+        margin: 0;
+    }
+
+    .footer-logo-line {
+        display: block;
+        margin-right: 24px;
+    }
+
+    .footer-item-list {
+        width: 264px;
+        margin-top: 16px;
+    }
+
+    .container-media-footer {
+        display: block;
+        padding: 0;
+    }
+
+    .wrapper-subscribe {
+        display: block;
+    }
+
+    .sbscrb-form {
+        flex-direction: row;
+    }
+
+    .sbscrb-lbl {
+        margin-right: 24px;
+        padding-bottom: 0;
+    }
+
+    .modal-list {
+        width: 408px;
+        height: 584px;
+        padding: 72px 24px 24px 24px;
     }
 }
 
-.hero-image-name {
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    margin-bottom: 36px;
-    width: 496px;
-}
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-.about-our-company{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 72px 24px;
-}
-.feature-li{
-    width: calc((100% - 24px) / 2);
-}
-.strategy-list{
-    text-align: left;
-    letter-spacing: 0.02em;
-}
-.team-navigation{
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 64px 24px;
-}
-.portfolio-class{
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 72px 24px;
-}
-.portfolio-class-list{
-    width: calc((100% - 24px) / 2);
-}
-.wrapp-foot{
-    justify-content: flex-start;
-    align-items: baseline;
-    padding-left: 108px;
-}
-.footer-logo{
-    margin: 0;
-}
-.footer-logo-line{
-    display: block;
-    margin-right: 24px;
-}
-.footer-item-list{
-    width: 264px;
-    margin-top: 16px;
-}
-.container-media-footer{
-    display: block;
-    padding: 0;
-}
+    .header-logo {
+        margin-right: 76px;
+    }
 
-.wrapper-subscribe{
-    display: block;
-}
-.sbscrb-form{
-    flex-direction: row;
-}
-.sbscrb-lbl{
-    margin-right: 24px;
-    padding-bottom: 0;
-}
-.modal-list{
-    width: 408px;
-    height: 584px;
-    padding: 72px 24px 24px 24px;
+    .address-item-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .header-studio-item {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .menu-mobile-navigation {
+        display: none;
+    }
+
+    .hero-image {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+        padding: 188px 0;
+    }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-image {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/people-office1.jpg);
+        }
+    }
+
+    .hero-image-name {
+        margin-bottom: 48px;
+    }
+
+    .strategy {
+        padding: 120px 0;
+    }
+
+    .wrapper-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        padding: 24px 0;
+        border: 1px solid #8e8f99;
+    }
+
+    .feature-li {
+        width: calc((100% - 72px) / 4);
+    }
+    .strategy-list{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+    .strategy-list-item{
+        font-weight: 400;
+    }
+    .title-team{
+        padding: 120px 0;
+    }
+    .portfolio-company{
+        padding: 120px 0;
+    }
+    .portfolio-class{
+        gap: 48px 24px;
+    }
+    .portfolio-class-list{
+        width: calc((100% - 48px) / 3);
+    }
+        .portfolio-class-list:hover,
+        .portfolio-class-list:focus {
+            border: 1px solid var(--CLOUD, #F4F4FD);
+            background: var(--WHITE, #FFF);
+            box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+                0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+                0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+        }
+                .portfolio-class-list:hover .portfolio-hiden{
+                    display: flex;
+                    transform: translateY(0);
+                }
+        .wrapper-imag-portfolio{
+            position: relative;
+            overflow: hidden;
+        }  
+        .footer{
+            padding: 100px 0;
+        }   
+        
+        .wrapp-foot{
+            justify-content: space-between;
+        }
+        .wrapper-footer-logo{
+            margin: 0 120px 0 0;
+        }
+        .container-media-footer{
+            margin-right: 80px;
+        }
+        .sbscrb-lbl{
+            margin-right: 24px;
+        }
+
 }
