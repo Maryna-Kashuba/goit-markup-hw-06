@@ -49,7 +49,7 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    ;
+    
 }
 
 .header {
@@ -92,7 +92,9 @@ body {
 .header-navigation {
     display: none;
 }
-
+.address-item{
+    display: none;
+}
 
 /*.header-nav-list {
     color: var(#2e2f42);
@@ -256,7 +258,7 @@ body {
     letter-spacing: 0.05em;
     width: 169px;
     margin: 0 auto;
-    margin-bottom: 72px;
+    padding: 72px 16px 72px 16px;
     text-transform: capitalize;
 }
 
