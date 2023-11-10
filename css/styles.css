@@ -258,7 +258,8 @@ body {
     letter-spacing: 0.05em;
     width: 169px;
     margin: 0 auto;
-    padding: 72px 16px 72px 16px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     text-transform: capitalize;
 }
 
@@ -1147,9 +1148,17 @@ body {
         align-items: baseline;
         padding-left: 108px;
     }
-
+.wrapper-footer-logo{
+    display: inline-block;
+        margin-bottom: 72px;
+            justify-content: center;
+            align-items: baseline;
+            flex-wrap: wrap;
+            flex-direction: row;
+}
     .footer-logo {
         margin: 0;
+        
     }
 
     .footer-logo-line {
