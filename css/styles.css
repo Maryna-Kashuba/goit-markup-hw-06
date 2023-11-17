@@ -339,7 +339,7 @@ body {
     text-transform: capitalize;
     align-self: stretch;
     font-family: Roboto;
-    padding-bottom: 8px;
+   margin-bottom: 8px;
 }
 
 .strategy-list-item {
@@ -362,8 +362,8 @@ body {
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.45emx;
+    line-height: 40px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
 }
@@ -388,7 +388,6 @@ body {
 
 .team-card-name {
     padding: 32px 0;
-    width: 232px;
     margin: 0 auto;
 }
 
@@ -554,7 +553,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 72px;
+    margin-bottom: 0;
 }
 
 .footer-logo {
@@ -580,13 +579,11 @@ body {
 }
 
 .container-media-footer {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
 }
 
 .media-footer {
@@ -651,7 +648,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .sbscrb-form {
@@ -1028,7 +1025,7 @@ body {
     .address-item-list {
         display: flex;
         flex-direction: column;
-        margin-top: 16px;
+            gap: 12px;
     }
 
     .address-link::after {
@@ -1047,7 +1044,6 @@ body {
         letter-spacing: 0.32px;
         display: block;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        padding-bottom: 12px;
     }
 
     .hero-image {
@@ -1087,7 +1083,6 @@ body {
 
     .strategy-list {
         text-align: left;
-        letter-spacing: 0.02em;
     }
 
     .team-navigation {
@@ -1286,21 +1281,13 @@ body {
     }
 
     .strategy-list {
-        color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
-        margin-bottom: 8px;
     }
 
     .strategy-list-item {
-        color: var(--SLATE, #434455);
-        font-family: Roboto;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.32px;
         font-weight: 400;
     }
 
